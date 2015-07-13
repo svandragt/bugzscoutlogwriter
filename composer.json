@@ -1,5 +1,5 @@
 {
-   "name":"svandragt/silverstripe-bugzscoutlogwriter",
+   "name":"svandragt/bugzscoutlogwriter",
    "description":"Log handler to send log events to FogBugz instance",
    "type":"silverstripe-module",
    "keywords":[
@@ -19,6 +19,6 @@
 	  "silverstripe/framework":"3.*"
    },
    "support":{
-	  "issues":"https://github.com/svandragt/silverstripe-bugzscoutlogwriter/issues"
+	  "issues":"https://github.com/svandragt/bugzscoutlogwriter/issues"
    }
 }

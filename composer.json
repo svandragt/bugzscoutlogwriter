@@ -1,0 +1,24 @@
+{
+   "name":"svandragt/silverstripe-bugzscoutlogwriter",
+   "description":"Log handler to send log events to FogBugz instance",
+   "type":"silverstripe-module",
+   "keywords":[
+	  "silverstripe",
+	  "log writer",
+	  "FogBugz"
+   ],
+   "license":"BSD-3-Clause",
+   "authors":[
+	  {
+		 "name":"Sander van Dragt",
+		 "homepage":"http://vandragt.com",
+		 "role":"Developer"
+	  }
+   ],
+   "require":{
+	  "silverstripe/framework":"3.*",
+   },
+   "support":{
+	  "issues":"https://github.com/svandragt/silverstripe-bugzscoutlogwriter/issues"
+   }
+}

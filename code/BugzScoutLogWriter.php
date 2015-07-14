@@ -46,7 +46,7 @@ class BugzScoutLogWriter extends Zend_Log_Writer_Abstract {
 		$this->description = $formattedData['subject'];
 		$this->extra       = $formattedData['data'];
 
-		$cache_expiry = 3600;
+		$cache_expiry = 1;
 		$request = new RestfulService($this->host . "/scoutSubmit.asp", $cache_expiry);
 
 		$params = array(

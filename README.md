@@ -1,4 +1,4 @@
-# silverstripe-bugzscoutlogwriter
+# BugzScoutLogWriter
 A SilverStripe Log writer to send log events to a FogBugz instance using BugzScout.
 
 # What's great about it
